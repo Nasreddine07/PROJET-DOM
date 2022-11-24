@@ -1,0 +1,75 @@
+html {
+    background-image: url('Images/images.jpg');
+    font-family:'Roboto', sans-serif;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+h2{
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Anton',sans-serif;
+    margin: 10px!important;
+}
+.shop-item-image {
+    width: 150px;
+    height: 130px; 
+}
+
+
+.plus-btn, .sustraction-btn, .delete-btn, .like-btn{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+}
+
+.Quantity{
+    width: 25px;
+    height: 25px;
+}
+
+.delete-btn, .like-btn{
+    border: none;
+}
+
+.shopping-cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item{
+    display: flex;
+    justify-content :space-around;
+    background-color: white;
+    max-width: none;
+    margin: 10px;
+
+}
+#TP {
+    color: black;
+    background-color: white; 
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bolder;
+    padding: 5px;
+}
+#total-price,#DT {
+    color: black;
+    background-color: white;
+}
+
+.shop-item-title, .price, .Prix_unitaire, .amount, .Quantity{
+    color: black;
+}
+
+.red {
+    color: red;
+}
